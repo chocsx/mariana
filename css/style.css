@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 15px;
+}
+header{
+
+}
+header ul li a{
+	color: #88918f;
+	text-decoration: none;
+	display: block;
+}
+.call{
+	background-color: #f2f5f3;
+	border-radius: 20px;
+	color: #52b9b3;
+	display: block;
+	font-size: 16px;
+	max-width: 170px;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+
+}
+.horarios{
+	background-color: #52b9b3;
+	color: #fcffff;
+}
+.slider div{
+	height: 465px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.tratamentos p {
+	max-width: 515px;
+	display: block;
+	margin: 0 auto;
+	color: #52b9b3;
+}
+.tratamentos p span{
+	font-weight: bold;
+}
