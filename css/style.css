@@ -3,7 +3,10 @@
 	padding: 0;
 }
 body{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
+	background-color: #f2f8f9;
+	font-weight: 300;
 }
 header{
 
@@ -43,4 +46,38 @@ header ul li a{
 }
 .tratamentos p span{
 	font-weight: bold;
+}
+.consultorio {
+	position: relative;
+}
+.consultorio .sobre{
+	background-color: #52b9b3;
+	padding: 115px 145px 105px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 50%;
+	z-index: -1;
+}
+.consultorio .sobre h2{
+	margin-left: 10px;
+	color: #f2f8f9;
+	font-size: 30px;
+	font-weight: 200;
+}
+.consultorio .sobre p{
+	color: #f2f8f9;
+	max-width: 475px;
+	font-size: 15px;
+	line-height: 22px;
+	margin: 40px 0 30px;
+}
+a.btn{
+	font-weight: 200;
+	display: block;
+	max-width: 170px;
+	font-size: 13px;
+	line-height: 25px;
+	background-color: #f2f5f3;
+	border-radius: 20px;
 }
