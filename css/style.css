@@ -57,6 +57,7 @@ a:hover{
 	.call{
 		font-size: 11px;
 		margin-top: 10px;
+
 	}
 }
 span.circle{
@@ -158,7 +159,7 @@ span.circle i{
 .consultorio .sobre{
 	background-color: #52b9b3;
 }
-@media (min-width: 1025px){
+@media (min-width: 1281px){
 	.consultorio .sobre{
 		padding: 115px 145px 75px;
 		position: absolute;
@@ -167,30 +168,59 @@ span.circle i{
 		width: 50%;
 		z-index: 3;
 	}
-}
-@media (max-width: 1440px){
-	.consultorio img{
-		max-width: 768px;
+	.consultorio .sobre p{
+		max-width: 475px;
 	}
+}
+@media (min-width: 1441px){
+	/*.consultorio img{
+		max-width: 750px;
+	}*/
 	.consultorio .sobre{
 		padding: 30px 120px 60px;
 	}
 }
-@media (max-width: 1024px){
+
+/*@media (min-width: 1024px){
 	.consultorio img{
-		max-width: 540px;
+		width: 50%;
+		float:left;
 	}
 	.consultorio .sobre{
-		padding: 0 60px 20px;
+		width: 50%;
+		float:left;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.consultorio .sobre p{
+		display: block;
+		margin: 0 auto;
+	}
+	.consultorio .sobre a.btn{
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+}*/
+@media (min-width: 1024px) and (max-width:1440px) {
+	.consultorio img, .consultorio .sobre{
+		max-width: 50%;
+		float: left;
+	}
+	.consultorio .sobre{
+		padding: 30px 60px 60px;
 	}
 }
-@media (max-width: 480px){
+
+@media (max-width: 768px){
 	.consultorio .sobre{
 		position: relative;
 		padding: 20px 15px;
 		margin: 0;
 		width: 100%;
 		text-align: center;
+	}
+	.consultorio .sobre a.btn{
+		margin: 0 auto;
 	}
 }
 .consultorio .sobre h2{
@@ -201,10 +231,11 @@ span.circle i{
 }
 .consultorio .sobre p{
 	color: #f2f8f9;
-	max-width: 475px;
+
 	font-size: 15px;
 	line-height: 22px;
 	margin: 40px 0 30px;
+
 }
 a.btn{
 	background-color: #f2f5f3;
@@ -224,7 +255,6 @@ a.btn{
 .casos-clinicos{
 	padding: 60px 0;
 }
-@media (max-width: 1024px){
 @media (max-width: 1024px){
 	.casos-clinicos{
 		padding: 160px 0;
@@ -304,4 +334,16 @@ footer form input[type="submit"] {
 .social-icons li a i{
 	display: block;
 	text-align: center;
+}
+
+@media (max-width: 480px){
+	footer{
+		text-align: center;
+	}
+	footer form input[type="email"] {
+		width: 80%;
+	}
+	footer form input[type="submit"]{
+		margin-top: 20px;
+	}
 }
