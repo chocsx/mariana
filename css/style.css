@@ -341,7 +341,7 @@ footer form input[type="submit"] {
 		justify-content: center;
 	}
 }
-.social-icons li:first-child{
+.social-icons li{
 	margin-right: 10px;
 }
 .social-icons li a{
